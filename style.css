@@ -1,0 +1,46 @@
+#title {
+    font-size: x-large;
+    text-align: center;
+}
+
+#player,
+#pc {
+    display: inline-block;
+}
+
+#result {
+    font-size: x-large;
+    text-align: center;
+}
+
+#gamefield {
+    margin-top: 10px;
+    width: 306px;
+    height: 306px;
+    background: #c05a5a;
+}
+
+#new_game {
+    margin-top: 10px;
+    background-color: #c05a5a;
+    color: whitesmoke;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-color: white;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+}
+
+.gamecontainer {
+    width: 306px;
+    margin: auto;
+    /* background-color: teal;*/
+}

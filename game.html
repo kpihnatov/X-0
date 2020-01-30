@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="gamecontainer">
+        <p id="title"> X/O Game </p>
+        <p>Please check type of game</p>
+        <button id="player" onclick="game()">With Player</button>
+        <button id="pc" onclick="pcgame()">With PC</button>
+        <!--- <label><input type="radio" id="player"  > with player</label>
+        <label><input type="radio" id="pc"  > with pc</label>-->
+        <div id="gamefield">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+
+        </div>
+        <p id="result">Result:
+        </p>
+        <button id="new_game" onclick="newgame()">New Game</button>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
